@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("../src/img/background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 320px;
+}
+
+span {
+    background: linear-gradient(0deg, rgba(176,122,52,1) 25%, rgba(251,252,185,1) 50%, rgba(176,122,52,1) 75%);
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 2px #af8d3a;
+    color: transparent;
+    font-size: 10em;
+    font-family: 'Mountains of Christmas', cursive;
+}
+
+@media screen and (max-width: 932px) {
+
+    .container {
+        transform: scale(.8);
+    }
+
+}
+
+@media screen and (max-width: 745px) {
+
+    .container {
+        transform: scale(.65);
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .container {
+        transform: scale(.5);
+    }
+
+}
+
+@media screen and (max-width: 470px) {
+
+    .container {
+        width: 100%;
+        transform: scale(.5) rotate(90deg);
+    }
+
+}
+
+@media screen and (max-width: 394px) {
+
+    .container {
+        width: 90%;
+    }
+
+}
+
+@media screen and (max-width: 360px) {
+
+    .container {
+        width: 80%;
+    }
+
+}
+
+@media screen and (max-width: 330px) {
+
+    .container {
+        width: 70%;
+    }
+
+}
